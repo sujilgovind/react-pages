@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Flag from 'react-flags';
 
+// country card 
 const CountryCard = props => {
   const { cca2: code2 = '', region = null, name = {}  } = props.country || {};
 
